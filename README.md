@@ -15,3 +15,15 @@ Download and RAG to query Epstein files
 >
 > optional for OpenAI:
 >> pip install openai
+
+### requirements.txt
+
+> requests
+> beautifulsoup4
+> tqdm
+> pymupdf
+> sentence-transformers
+> faiss-cpu
+> numpy
+> ollama
+> openai
