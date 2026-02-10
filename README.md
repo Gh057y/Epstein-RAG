@@ -23,13 +23,21 @@ Download and RAG to query Epstein files
 ### requirements.txt
 
 > requests
+> 
 > beautifulsoup4
+> 
 > tqdm
+> 
 > pymupdf
+> 
 > sentence-transformers
+> 
 > faiss-cpu
+> 
 > numpy
+> 
 > ollama
+> 
 > openai
 
 ### make executable
