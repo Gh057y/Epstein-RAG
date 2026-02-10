@@ -1,7 +1,9 @@
 # Epstein-RAG
 Download and RAG to query Epstein files
 
-5min work with ChatGPT - untested
+5min work with ChatGPT - work in progress
+
+Test and mention issues!
 
 ## Setup
 
