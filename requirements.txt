@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+tqdm
+pymupdf
+sentence-transformers
+faiss-cpu
+numpy
+ollama
+openai
