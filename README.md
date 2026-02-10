@@ -2,7 +2,10 @@
 Download and RAG to query Epstein files
 
 5min work with ChatGPT - untested
-## install dependencies
+
+## Setup
+
+### install dependencies
 
 
 > python -m venv .venv
@@ -32,3 +35,27 @@ Download and RAG to query Epstein files
 ### make executable
 
 > chmod +x epstein_rag.py
+
+## usage:
+
+### Discover file links (no downloads yet)
+
+> python epstein_rag.py download --dataset all --list-only
+
+### Download (example: just dataset 12)
+
+> python epstein_rag.py download --dataset 12 --workers 8
+
+### Build the index from downloaded PDFs
+
+> python epstein_rag.py index --downloaddir epstein_downloads --indexdir epstein_index
+
+## Ask Questions (ollama):
+
+### pull ollama model
+
+> ollama pull llama3.1
+
+### Ask question
+
+> python epstein_rag.py ask "What does the evidence list say about items seized?" --provider ollama --model llama3.1
