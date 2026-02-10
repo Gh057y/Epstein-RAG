@@ -1,6 +1,7 @@
 # Epstein-RAG
 Download and RAG to query Epstein files
 
+5min work with ChatGPT - untested
 ## install dependencies
 
 
@@ -27,3 +28,7 @@ Download and RAG to query Epstein files
 > numpy
 > ollama
 > openai
+
+### make executable
+
+> chmod +x epstein_rag.py
