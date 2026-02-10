@@ -9,7 +9,9 @@ Download and RAG to query Epstein files
 >
 > pip install -U pip
 > pip install requests beautifulsoup4   tqdm pymupdf sentence-transformers faiss-cpu numpy
+> 
 > optional (recommended) for local LLM chat:
 >> pip install ollama
+>
 > optional for OpenAI:
 >> pip install openai
